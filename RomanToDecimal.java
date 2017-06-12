@@ -60,7 +60,8 @@ import java.util.*;
     public static void main(java.lang.String args[]) {
         Scanner s=new Scanner(System.in);
         String sss=s.nextLine();
-        romanToDecimal(sss);
+        String ssa=sss.toUpperCase();
+        romanToDecimal(ssa);
     }
 }
 
