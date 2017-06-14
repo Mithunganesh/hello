@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class Vowelorn{
+class C_alphabet{
     public static void main(String arr[]){
         Scanner s=new Scanner(System.in);
         String s1=s.nextLine();
