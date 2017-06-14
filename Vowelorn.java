@@ -5,11 +5,14 @@ class Vowelorn{
         Scanner s=new Scanner(System.in);
         String s1=s.nextLine();
        char k=s1.charAt(0);
+        if(Character.isLetter(k)){
         if((k=='a')||(k=='e')||(k=='i')||(k=='o')||(k=='u')||(k=='A')||(k=='I')||(k=='E')||(k=='O')||(k=='U')){
                 System.out.println("Vowel");
             }
         else {
             System.out.println("Consonant");
+        }}else{
+            System.out.println("Invalid input");
         }
       }
 }
