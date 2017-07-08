@@ -14,7 +14,7 @@ public class SubString {
             }
             longestNow += c;
             set.add(c);
-            if (longestNow.length() > longestsubstr.lengt()) {
+            if (longestNow.length() > longestsubstr.length()) {
                 longestsubstr = longestNow;
             }
         }
